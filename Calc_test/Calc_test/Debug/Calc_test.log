@@ -1,0 +1,26 @@
+﻿生成启动时间为 2018/4/9 星期一 23:24:30。
+     1>项目“E:\code\calc\Calc_test\Calc_test\Calc_test.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\UnitTest\include" /IE:\code\calc\Calc_test\Calc_test\ /I"Generated Files\\" /IDebug\ /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\Calc_test.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /FC /errorReport:prompt unittest1.cpp
+         unittest1.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code\calc\Calc_test\Debug\Calc_test\Calc_test.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\UnitTest\lib" kernel32.lib /MANIFEST:NO /DEBUG /PDB:"E:\code\calc\Calc_test\Debug\Calc_test\Calc_test.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /APPCONTAINER /WINMD /WINMDFILE:"E:\code\calc\Calc_test\Debug\Calc_test\Calc_test.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /DLL Debug\pch.obj
+         Debug\unittest1.obj
+            正在创建库 E:\code\calc\Calc_test\Debug\Calc_test\Calc_test.lib 和对象 E:\code\calc\Calc_test\Debug\Calc_test\Calc_test.exp
+         Calc_test.vcxproj -> E:\code\calc\Calc_test\Debug\Calc_test\Calc_test.dll
+       _GeneratePrisForPortableLibraries:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\MakePri.exe New -ProjectRoot . -ConfigXml Debug\Microsoft.VisualStudio.TestPlatform.Core\priconfig.xml -OutputFile Debug\Microsoft.VisualStudio.TestPlatform.Core.pri -IndexName Microsoft.VisualStudio.TestPlatform.Core -Verbose -Overwrite  
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\MakePri.exe New -ProjectRoot . -ConfigXml Debug\Microsoft.VisualStudio.TestPlatform.ObjectModel\priconfig.xml -OutputFile Debug\Microsoft.VisualStudio.TestPlatform.ObjectModel.pri -IndexName Microsoft.VisualStudio.TestPlatform.ObjectModel -Verbose -Overwrite  
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\MakePri.exe New -ProjectRoot . -ConfigXml Debug\Microsoft.VisualStudio.TestPlatform.TestExecutor.Core\priconfig.xml -OutputFile Debug\Microsoft.VisualStudio.TestPlatform.TestExecutor.Core.pri -IndexName Microsoft.VisualStudio.TestPlatform.TestExecutor.Core -Verbose -Overwrite  
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\MakePri.exe New -ProjectRoot . -ConfigXml Debug\Microsoft.VisualStudio.TestPlatform.Utilities\priconfig.xml -OutputFile Debug\Microsoft.VisualStudio.TestPlatform.Utilities.pri -IndexName Microsoft.VisualStudio.TestPlatform.Utilities -Verbose -Overwrite  
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\MakePri.exe New -ProjectRoot . -ConfigXml Debug\Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension\priconfig.xml -OutputFile Debug\Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension.pri -IndexName Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension -Verbose -Overwrite  
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\MakePri.exe New -ProjectRoot . -ConfigXml Debug\Microsoft.VisualStudio.TestTools.CppUnitTestFramework.Discoverer\priconfig.xml -OutputFile Debug\Microsoft.VisualStudio.TestTools.CppUnitTestFramework.Discoverer.pri -IndexName Microsoft.VisualStudio.TestTools.CppUnitTestFramework.Discoverer -Verbose -Overwrite  
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\MakePri.exe New -ProjectRoot . -ConfigXml Debug\Microsoft.VisualStudio.TestTools.CppUnitTestFramework.TestEngine\priconfig.xml -OutputFile Debug\Microsoft.VisualStudio.TestTools.CppUnitTestFramework.TestEngine.pri -IndexName Microsoft.VisualStudio.TestTools.CppUnitTestFramework.TestEngine -Verbose -Overwrite  
+       _GenerateProjectPriFileCore:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\MakePri.exe New -ProjectRoot E:\code\calc\Calc_test\Calc_test\ -ConfigXml Debug\priconfig.xml -OutputFile E:\code\calc\Calc_test\Debug\Calc_test\resources.pri -IndexName 450d0fd5-74eb-4383-8d16-c279b17c7ee8 -Verbose -Overwrite  
+     1>MakePRI : warning 0xdef00522: Resources found for language(s) 'en-us, zh-hans' but no resources found for default language(s): 'zh-Hans-CN'. Change the default language or qualify resources with the default language. http://go.microsoft.com/fwlink/?LinkId=231899
+     1>已完成生成项目“E:\code\calc\Calc_test\Calc_test\Calc_test.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.67

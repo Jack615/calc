@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>9b734938-a30d-4540-b92d-6294d5caf176</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>e9a612df-35d6-4400-bf5b-c5481c6743d7</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>4c584b33-331a-4a9b-9cc0-630d2a772fd1</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Package">
+      <UniqueIdentifier>9c3c1aa7-4c34-4874-9afb-88bf15ab3c48</UniqueIdentifier>
+      <Extensions>appxmanifest;tile;settings</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\calc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="unittest1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Images\UnitTestLogo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\UnitTestSmallLogo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\UnitTestSplashScreen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\UnitTestStoreLogo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <Filter>Package</Filter>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Calc_test_TemporaryKey.pfx" />
+  </ItemGroup>
+</Project>

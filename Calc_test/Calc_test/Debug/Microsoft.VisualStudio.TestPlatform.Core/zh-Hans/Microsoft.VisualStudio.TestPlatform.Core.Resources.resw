@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MissingOperand" xml:space="preserve">
+    <value>错误: 缺少操作数</value>
+  </data>
+  <data name="CannotAcceptTestResultWhenTestIsCanceled" xml:space="preserve">
+    <value>无法接受测试结果，因为测试执行已取消。</value>
+  </data>
+  <data name="ServiceSecurityUserNotAllowed" xml:space="preserve">
+    <value>您无权执行此操作。</value>
+  </data>
+  <data name="DuplicateExtensionUri" xml:space="preserve">
+    <value>重复的测试扩展名 URI“{0}”。忽略重复的扩展名。</value>
+  </data>
+  <data name="EmptyParenthsis" xml:space="preserve">
+    <value>错误: 空括号( )</value>
+  </data>
+  <data name="DuplicateSettingsName" xml:space="preserve">
+    <value>名为“{0}”的重复的设置提供程序。忽略重复的提供程序。</value>
+  </data>
+  <data name="RunSettingsAlreadyLoaded" xml:space="preserve">
+    <value>已加载运行设置。</value>
+  </data>
+  <data name="LoggerNotFound" xml:space="preserve">
+    <value>找不到具有 URI 或 FriendlyName“{0}”的测试记录器。</value>
+  </data>
+  <data name="DiscovererInstantiationException" xml:space="preserve">
+    <value>实例化发现器时发生异常: {0}</value>
+  </data>
+  <data name="ErrorHandlerEventMessage" xml:space="preserve">
+    <value>错误处理程序异常: {0} \r\n {1}</value>
+  </data>
+  <data name="DuplicateSource" xml:space="preserve">
+    <value>忽略指定的重复源“{0}”。</value>
+  </data>
+  <data name="TestRunFailed_NoTestsAreAvailableInTheSources" xml:space="preserve">
+    <value>{0} 中没有可用测试。请确保安装了适当的测试发现器和执行器且平台和框架版本设置合适，然后重试。</value>
+  </data>
+  <data name="LoggerInitializationError" xml:space="preserve">
+    <value>初始化 URI 为“{0}”的记录器时发生异常。将不会使用该记录器。异常: {1}</value>
+  </data>
+  <data name="NumberOfTestCasesCannotBeLessThanOne" xml:space="preserve">
+    <value>应至少有一个要检索的测试。</value>
+  </data>
+  <data name="ExceptionFromRunTests" xml:space="preserve">
+    <value>调用执行器“{0}”时发生异常: {1}</value>
+  </data>
+  <data name="EnableShutdownAfterTestRunWhenKeepAliveIsFalse" xml:space="preserve">
+    <value>如果 KeepAlive 为 false，则无法启用 EnableShutdownAfterTestRun。</value>
+  </data>
+  <data name="DuplicateSettingsProvided" xml:space="preserve">
+    <value>找到名为“{0}”的重复的运行设置部分。忽略重复的设置。</value>
+  </data>
+  <data name="DataCollectionMessageFormat" xml:space="preserve">
+    <value>诊断数据适配器消息: {0}</value>
+  </data>
+  <data name="QueueAlreadyDisposed" xml:space="preserve">
+    <value>已处置 {0} 队列。</value>
+  </data>
+  <data name="WeakEventsOnlyInstanceMethodsSupportedExceptionText" xml:space="preserve">
+    <value>测试方法必须是实例方法。</value>
+  </data>
+  <data name="AppxManifestReadError" xml:space="preserve">
+    <value>未能读取清单文件，错误为: {0}</value>
+  </data>
+  <data name="MissingCloseParenthesis" xml:space="preserve">
+    <value>错误: 缺少“)”</value>
+  </data>
+  <data name="DataCollectorMessageFormat" xml:space="preserve">
+    <value>诊断数据适配器(“{0}”)消息: {1}。</value>
+  </data>
+  <data name="StringSeperator" xml:space="preserve">
+    <value>，</value>
+  </data>
+  <data name="EnableShutdownAfterTestRunBeingSetToFalse" xml:space="preserve">
+    <value>无法在测试运行中禁用 EnableShutdownAfterTestRun。对于下一个测试运行，该测试运行将启动并且状态为“已禁用”。</value>
+  </data>
+  <data name="UnsupportedPropertiesInTestCaseFilter" xml:space="preserve">
+    <value>没有与筛选器匹配的测试，因为该筛选器包含一个或多个无效属性({0})。请指定包含有效属性({1})的筛选器表达式并重试。</value>
+  </data>
+  <data name="InvalidExtensionUriFormat" xml:space="preserve">
+    <value>测试扩展具有无效的 URI“{0}”: {1}</value>
+  </data>
+  <data name="InvalidOperator" xml:space="preserve">
+    <value>错误: 运算符“{0}”无效</value>
+  </data>
+  <data name="MissingOpenParenthesis" xml:space="preserve">
+    <value>错误: 缺少“(”</value>
+  </data>
+  <data name="LaunchDebugProcessNotAllowedForANonDebugRun" xml:space="preserve">
+    <value>非调试运行的上下文中不允许执行此操作。</value>
+  </data>
+  <data name="ExceptionFromJobProcessor" xml:space="preserve">
+    <value>处理“{0}”队列中的作业时发生未经处理的异常: {1}</value>
+  </data>
+  <data name="IgnoringExecutorAsNoDefaultExecutorUriAttribute" xml:space="preserve">
+    <value>忽略与测试发现器 {0} 对应的测试执行器，因为该发现器不具有 DefaultExecutorUri 特性。您可能需要重新安装测试适配器外接程序。</value>
+  </data>
+  <data name="FailedToFindInstalledUnitTestExtensions" xml:space="preserve">
+    <value>未能找到已安装的单元测试扩展的列表。原因: {0}</value>
+  </data>
+  <data name="DiscoveryAbortNotSupportedInProc" xml:space="preserve">
+    <value>只能在 /InIsolation 执行过程中中止测试发现请求。</value>
+  </data>
+  <data name="StartIndexShouldBeNonNegative" xml:space="preserve">
+    <value>从其检索测试用例的起始索引不应为负。</value>
+  </data>
+  <data name="SettingsNodeInvalidName" xml:space="preserve">
+    <value>指定的设置节点无效。设置节点的名称属性必须为非空。</value>
+  </data>
+  <data name="SettingsProviderInitializationError" xml:space="preserve">
+    <value>初始化名为“{0}”的设置提供程序时出错。错误: {1}</value>
+  </data>
+  <data name="TestCaseFilterFormatException" xml:space="preserve">
+    <value>TestCaseFilter {0} 的格式不正确。请指定正确的格式并重试。请注意，格式不正确会导致不执行任何测试。</value>
+  </data>
+  <data name="NoDiscovererRegistered" xml:space="preserve">
+    <value>未注册测试发现器来执行发现测试用例的操作。请注册测试发现器并重试。</value>
+  </data>
+  <data name="InvalidCondition" xml:space="preserve">
+    <value>错误: 条件“{0}”无效</value>
+  </data>
+  <data name="AppxRegistrationFailure" xml:space="preserve">
+    <value>未能启动测试执行器进程“{0}”。包 {1} 注册失败，错误代码为 0x{2:X}，错误消息为 {3}。\n有关更多详细信息，请在事件查看器中查看“应用程序和服务日志”-&gt;“Microsoft”-&gt;“Windows”-&gt;“AppXDeployment-Server”-&gt;“Microsoft-Windows-AppXDeploymentServer/Operational”下的内容。</value>
+  </data>
+  <data name="RunSettingsParseError" xml:space="preserve">
+    <value>加载运行设置时出错。错误: {0}</value>
+  </data>
+  <data name="QueuePausedDisposeError" xml:space="preserve">
+    <value>无法在暂停时处置 {0} 队列。</value>
+  </data>
+  <data name="MissingOperator" xml:space="preserve">
+    <value>缺少运算符 '|' 或 '&amp;'</value>
+  </data>
+  <data name="NoMatchingExecutor" xml:space="preserve">
+    <value>找不到 URI 为“{0}”的测试执行器。请确保安装了测试执行器并支持 .NET 运行时版本 {1}。</value>
+  </data>
+  <data name="TestLoggerQueueName" xml:space="preserve">
+    <value>测试记录器</value>
+  </data>
+  <data name="CollectionEmpty" xml:space="preserve">
+    <value>集合中应至少有一项: {0}</value>
+  </data>
+  <data name="NoDiscoveryRequest" xml:space="preserve">
+    <value>找不到任何测试，因为未发出过任何发现请求。请执行发现请求并重试。</value>
+  </data>
+  <data name="AnotherDiscoveryRequestInProgress" xml:space="preserve">
+    <value>某个发现请求已在进行中。只支持一个活动的发现请求。</value>
+  </data>
+  <data name="NoValidSourceFoundForDiscovery" xml:space="preserve">
+    <value>无有效的指定源“{0}”。请修复以上错误/警告，然后重试。</value>
+  </data>
+  <data name="ExceptionFromLoadTests" xml:space="preserve">
+    <value>测试发现器“{0}”加载测试时发生异常。异常: {1}</value>
+  </data>
+  <data name="SettingsProviderNotFound" xml:space="preserve">
+    <value>找不到名为“{0}”的设置提供程序。无法加载相应的设置。</value>
+  </data>
+  <data name="InvalidRunSettingsRootNode" xml:space="preserve">
+    <value>必须将运行设置的根节点命名为“RunSettings”。</value>
+  </data>
+  <data name="NoDiscovererRegisteredForTestSource" xml:space="preserve">
+    <value>未注册测试发现器来执行发现测试源“{0}”的类型的操作。请注册此源类型的测试发现器并重试。</value>
+  </data>
+  <data name="NoTestsFoundInContainer" xml:space="preserve">
+    <value>未在容器“{0}”中发现测试。</value>
+  </data>
+</root>
