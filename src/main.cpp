@@ -34,5 +34,6 @@ int main()
 			printf("%f\n",e.buff[--e.top]);
 		}	
 	}
+	
 	return 0;
 }
